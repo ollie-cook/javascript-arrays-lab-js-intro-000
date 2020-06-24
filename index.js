@@ -20,6 +20,6 @@ return kittens.shift();
 }
 
 var appendKitten = (name) =>{
-  var kittens1 = kittens.push(name);
+kittens1 = kittens.push(name);
 return kittens1
 }
