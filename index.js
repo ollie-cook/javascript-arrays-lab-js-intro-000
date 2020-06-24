@@ -20,6 +20,5 @@ return kittens.shift();
 }
 
 var appendKitten = (name) =>{
-kittens1 = kittens.push(name);
-return kittens1
+return kittens.concat(name)
 }
