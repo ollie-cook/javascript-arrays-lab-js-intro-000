@@ -22,3 +22,7 @@ return kittens.shift();
 var appendKitten = (name) =>{
 return kittens.concat(name)
 }
+
+var prependKitten = (name) => {
+  return name.concat(kittens)
+}
