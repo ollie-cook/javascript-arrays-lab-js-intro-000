@@ -15,6 +15,6 @@ var destructivelyRemoveLastKitten = () => {
 return kittens.pop()
 }
 
-var destructivelyRemoveFirstKitten = () => { 
+var destructivelyRemoveFirstKitten = () => {
 return kittens.shift();
 }
