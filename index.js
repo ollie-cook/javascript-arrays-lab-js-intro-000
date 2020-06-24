@@ -24,5 +24,5 @@ return kittens.concat(name)
 }
 
 var prependKitten = (name) => {
-  return name.concat(kittens)
+  return [name].concat(kittens)
 }
