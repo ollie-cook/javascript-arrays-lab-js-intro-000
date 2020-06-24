@@ -17,8 +17,8 @@ return kittens.pop()
 
 var destructivelyRemoveFirstKitten = () => {
 return kittens.shift();
-} 
+}
 
-var appendKitten = (name) =>{ 
+var appendKitten = (name) =>{
 return kittens1 = kittens.push(name);
 }
