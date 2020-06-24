@@ -11,6 +11,6 @@ var destructivelyPrependKitten = (name) => {
 
 }
 
-var destructivelyRemoveLastKitten = () => { 
+var destructivelyRemoveLastKitten = () => {
 return kittens.pop()
 }
