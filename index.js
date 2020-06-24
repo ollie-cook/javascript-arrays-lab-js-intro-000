@@ -26,3 +26,7 @@ return kittens.concat(name)
 var prependKitten = (name) => {
   return [name].concat(kittens)
 }
+
+var removeLastKitten = () => {
+  return kittens.slice(0,kittens.length-1)
+}
